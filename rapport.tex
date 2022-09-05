@@ -84,7 +84,47 @@ Collisons = sur un meme canal gégrées par un algorithme.
 Les canaux 12 et 13 sont quasi interdits aux USA sauf à faire puissance le 14 étant
 strictement interdit dans le pays.
 
+\subsection{Les topologies de base}
+Avec point d'accès = la borne n'est pas barrée\\
+Sans point d'accès = la borne est barrée
 
+\subsection{Mode infrasctucture}
+ESSID/SSID : nom du réseau\\
+Un AP configuré dans ce mode va jouer le rôle de simple carte WIFI, via le câble 
+ethernet. 
+\subsection{Mode répéteur (repeaters)}
+\begin{itemize}
+    \item Sert à étendre le réseau dans des zones d'ombres
+    \item Débit divisé par 2
+    \item Risque de collision élevé car c'est sur la même fréquence
+\end{itemize}
+
+\subsection{Sécuriser son réseau}
+\begin{itemize}
+    \item WEP : Wired Equivalent Privacy (déjà obsolète), très facile à pirater
+    \item WPA : Wi-Fi Protected Access, plus sécurisé que WEP, solution transitoire 
+    \item conçue avant la finalisation de la norme 801.11i
+    \item WPA2 : Wi-Fi Protected Access 2, plus sécurisé que WPA, respecte a norme 
+    \item 802.11i et imposee le protocole de gestion de cles CCMP
+    \item WPA3 : Wi-Fi Protected Access 3, plus sécurisé que WPA2, introduit en 2018
+    \item WPA Personal : WPA avec une seule clé partagée par tous les utilisateurs, conçue pour les petits réseaux 
+    \item WPA entreprise : WPA avec une clé différente pour chaque utilisateur, conçue pour les grands réseaux d'entreprise\\
+\end{itemize}
+
+Voici quelques solution pour sécurer son réseau : \\
+\begin{itemize}
+    \item Cacher le SSID
+    \item Filtrer adresses MAC
+    \item Utiliser le WPA3
+\end{itemize}
+
+\subsection{Pirater son réseau}
+\begin{itemize}
+    \item Utiliser Macchanger pour changer adresse MAC
+    \item utiliser airodump-ng pour les stations disponibles
+    \item utiliser aireplay-ng pour envoyer une trame de déconnexion d'une station connectéé, qui va alors tenter de se reconnecter automatiquement
+    \item Utiliser AirCrack-ng avec un fichier adéquat
+\end{itemize}
 
 
 \end{document}
