@@ -28,13 +28,13 @@
 \begin{titlepage}
 	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
 	\center 
-	\textsc{\LARGE iut de colmar}\\[1.5cm] 
+	\textsc{\LARGE iut de colmar}\\[6.5cm] 
 	\textsc{\Large R301}\\[0.5cm] 
 	\textsc{\large Année 2022-23}\\[0.5cm]
 	\HRule\\[0.75cm]
 	{\huge\bfseries Réseaux de campus}\\[0.4cm]
 	\HRule\\[1.5cm]
-	\textsc{\large martin baumgaertner}\\[0.5cm] 
+	\textsc{\large martin baumgaertner}\\[6.5cm] 
 
 	\vfill\vfill\vfill
 	{\large\today} 
@@ -125,6 +125,83 @@ Voici quelques solution pour sécurer son réseau : \\
     \item utiliser aireplay-ng pour envoyer une trame de déconnexion d'une station connectéé, qui va alors tenter de se reconnecter automatiquement
     \item Utiliser AirCrack-ng avec un fichier adéquat
 \end{itemize}
+\newpage
+
+\section{CM 2 - 12 septembre 2022}
+\subsection{La transmission hertzienne}
+\begin{itemize}
+    \item La transmission hertzienne est une transmission sans fil
+    \item Elle utilise les ondes électromagnétiques
+    \item Elle est utilisée pour la télévision, la radio, le téléphone, etc.
+    \item Elle est basée sur la propagation des ondes électromagnétiques
+    \item Elle est utilisée pour la transmission de données
+    \item Très robuste maus 1 bit/signal
+\end{itemize}
+
+
+\newpage
+\section{TD 2 - 12 septembre 2022}
+\subsection{Question 1}
+La distance maximal en 802.11b est de 100m. Lorsque l'on veut calculer le temps
+nécessaire à la propagation nous faisons $ \frac{100}{3*10^{8}} $, nous obtenons
+$ 3,33*10^{-7} $ secondes. Donc temps de propagation = 0,3µs. ce qui est très faible donc
+négligeable.
+
+\subsection{Question 2}
+Pour le standard IEEE 802.11b, les durées sont les suivantes : SIFS : 10µs, 
+DIFS 50µs, TS = 20
+
+\subsection{Question 3}
+La formule reliant les 3 variables : DIFS = SIFS + 2*TS.
+
+\subsection{Question 4}
+Tbackoff = Rand[0,CW] x Ts avec CWi=2k-1
+
+\subsection{Question 5}
+
+\subsection{Question 6}
+
+\subsection{Question 7}
+
+\subsection{Question 8}
+
+\subsection{Question 9}
+L'en-tête MAC d'une trame est de 30 octets. 
+Et le corps de la trame en wifi fait entre 0 et 2312 octets.
+Et sa séquence de contrôle est de 4 octets.
+
+\subsection{Question 10}
+Il faudra 24,7µs car nous faisons Temps de transmission = Taille des données / Vitesse de transfert.
+\newpage 
+
+\subsection{Question 11}
+Le PLCP est un type d'en-tête ajouté à la couche Physique. Il se 
+compose de deux parties principales, le préambule et l'en-tête, 
+comme indiqué ci-dessous.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/td.png}
+    \caption{Le PLCP}
+    \label{fig:td}
+\end{figure}
+
+La première partie du PLCP est pour 'Sync' (Synchronisation). Il 
+s'agit d'une partie composée de 80 bits d'alternance 0 et 1.
+
+La partie suivante est le SFD (Start Frame Delimiter). C'est 
+une sorte de balise indiquant le début de la trame physique et 
+c'est une séquence de 16 bits spécifiquement déterminée (0000110010111101).
+
+\subsection{Question 12}
+Pour calculer la taille de données nous modifions la formule et il faut faire 
+taille de données = Temps de transmission * Vitesse de transfert.
+donc, $ 1,92^{-4} $ * 1Mbps = 0,0015 bits. 
+
+\subsection{Question 13}
+La taille totale d'une trame ACK est de 14 octets.
+
+\subsection{Question 14}
 
 
 \end{document}
