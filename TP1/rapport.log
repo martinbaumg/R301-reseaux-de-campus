@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  22 SEP 2022 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  22 SEP 2022 16:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -534,31 +534,25 @@ Overfull \hbox (21.96523pt too wide) in paragraph at lines 11--11
  [][] [][][]\T1/cmr/m/n/12 Indiquez le rôle exact des op-tions \T1/cmtt/m/n/12 guest-mode, authentication 
  []
 
-
-Overfull \hbox (2.41042pt too wide) in paragraph at lines 31--31
- [][] [][][]\T1/cmr/m/n/12 Avec wi-re-shark, re-met-tez les phases DHCP sui-vantes dans leur ordres 
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.33 ...s une capture d'Ã©cran}{8}{subsection.7.1}
-                                                  % [1])
+)
 \tf@toc=\write6
 \openout6 = `rapport.toc'.
 
- (./rapport.lof)
+ (./rapport.lof
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 ...ltrage MAC\relax }}{14}{figure.caption.17}
+                                                  % [1])
 \tf@lof=\write7
 \openout7 = `rapport.lof'.
 
+ (./rapport.lol)
+\tf@lol=\write8
+\openout8 = `rapport.lol'.
+
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
@@ -573,44 +567,134 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
  []
 
 
-Overfull \hbox (3.86691pt too wide) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Overfull \hbox (3.86691pt too wide) in paragraph at lines 61--62
 []\T1/cmtt/m/n/12 username toto privilege 15 password tototo \T1/cmr/m/n/12 : per-met de créer un nou-
  []
 
-Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 68.
+Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 69.
 \openout3 = `rapport.pyg'.
 
 (./_minted-rapport/default.pygstyle) (./_minted-rapport/6391F01AD2DF055D3EFC879500B1E2F1D82E77CF33B0E5351674FC648B18645F.pygtex) [3]
 \openout3 = `rapport.pyg'.
 
- (./_minted-rapport/C7AE9789D52D2ED87C0761B454696D18D82E77CF33B0E5351674FC648B18645F.pygtex
+ (./_minted-rapport/30D9BCF698B297B7D16292D0661505A2D82E77CF33B0E5351674FC648B18645F.pygtex
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 24.
 ) [4]
 \openout3 = `rapport.pyg'.
 
- (./_minted-rapport/F46FBF79359E5014DA0BD99A55F4881BD82E77CF33B0E5351674FC648B18645F.pygtex) [5] [6] [7]
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 222.
- [8] (./rapport.aux)
+ (./_minted-rapport/F46FBF79359E5014DA0BD99A55F4881BD82E77CF33B0E5351674FC648B18645F.pygtex) [5]
+<img/config-express.png, id=184, 1084.05pt x 73.02281pt>
+File: img/config-express.png Graphic file (type png)
+<use img/config-express.png>
+Package pdftex.def Info: img/config-express.png  used on input line 174.
+(pdftex.def)             Requested size: 418.25368pt x 28.17346pt.
+<img/int.png, id=186, 1445.4pt x 35.13126pt>
+File: img/int.png Graphic file (type png)
+<use img/int.png>
+Package pdftex.def Info: img/int.png  used on input line 181.
+(pdftex.def)             Requested size: 418.25368pt x 10.16582pt.
+<img/part1.png, id=187, 796.9775pt x 925.4575pt>
+File: img/part1.png Graphic file (type png)
+<use img/part1.png>
+Package pdftex.def Info: img/part1.png  used on input line 189.
+(pdftex.def)             Requested size: 334.60422pt x 388.5483pt.
+<img/part2.png, id=188, 796.9775pt x 674.52pt>
+File: img/part2.png Graphic file (type png)
+<use img/part2.png>
+Package pdftex.def Info: img/part2.png  used on input line 195.
+(pdftex.def)             Requested size: 418.25368pt x 353.9842pt.
+ [6 <./img/config-express.png> <./img/int.png>] [7 <./img/part1.png>]
+<img/mode-wep.png, id=202, 653.44125pt x 41.15375pt>
+File: img/mode-wep.png Graphic file (type png)
+<use img/mode-wep.png>
+Package pdftex.def Info: img/mode-wep.png  used on input line 213.
+(pdftex.def)             Requested size: 418.25368pt x 26.34143pt.
+ [8 <./img/part2.png>]
+<img/config-part1.png, id=208, 778.91pt x 977.6525pt>
+File: img/config-part1.png Graphic file (type png)
+<use img/config-part1.png>
+Package pdftex.def Info: img/config-part1.png  used on input line 221.
+(pdftex.def)             Requested size: 292.77629pt x 367.4691pt.
+<img/config-part2.png, id=209, 778.91pt x 706.64pt>
+File: img/config-part2.png Graphic file (type png)
+<use img/config-part2.png>
+Package pdftex.def Info: img/config-part2.png  used on input line 227.
+(pdftex.def)             Requested size: 418.25368pt x 379.44499pt.
+ [9 <./img/mode-wep.png> <./img/config-part1.png>]
+<img/ssid-manage1.png, id=216, 1469.49pt x 894.34125pt>
+File: img/ssid-manage1.png Graphic file (type png)
+<use img/ssid-manage1.png>
+Package pdftex.def Info: img/ssid-manage1.png  used on input line 238.
+(pdftex.def)             Requested size: 334.60422pt x 203.63353pt.
+<img/ssid-manage2.png, id=217, 1469.49pt x 865.2325pt>
+File: img/ssid-manage2.png Graphic file (type png)
+<use img/ssid-manage2.png>
+Package pdftex.def Info: img/ssid-manage2.png  used on input line 244.
+(pdftex.def)             Requested size: 334.60422pt x 197.00572pt.
+ [10 <./img/config-part2.png>]
+<img/config-manage3.png, id=223, 1469.49pt x 189.70876pt>
+File: img/config-manage3.png Graphic file (type png)
+<use img/config-manage3.png>
+Package pdftex.def Info: img/config-manage3.png  used on input line 252.
+(pdftex.def)             Requested size: 418.25368pt x 53.99518pt.
+ [11 <./img/ssid-manage1.png> <./img/ssid-manage2.png>]
+<img/configg-part1.png, id=230, 824.07875pt x 974.64125pt>
+File: img/configg-part1.png Graphic file (type png)
+<use img/configg-part1.png>
+Package pdftex.def Info: img/configg-part1.png  used on input line 260.
+(pdftex.def)             Requested size: 292.77629pt x 346.26031pt.
+<img/configg-part2.png, id=231, 824.07875pt x 974.64125pt>
+File: img/configg-part2.png Graphic file (type png)
+<use img/configg-part2.png>
+Package pdftex.def Info: img/configg-part2.png  used on input line 266.
+(pdftex.def)             Requested size: 418.25368pt x 494.6661pt.
+ [12 <./img/config-manage3.png> <./img/configg-part1.png>]
+<img/filtrage-mac.png, id=239, 685.56125pt x 412.54124pt>
+File: img/filtrage-mac.png Graphic file (type png)
+<use img/filtrage-mac.png>
+Package pdftex.def Info: img/filtrage-mac.png  used on input line 275.
+(pdftex.def)             Requested size: 250.95476pt x 151.0138pt.
+<img/filtrage-mac2.png, id=240, 685.56125pt x 412.54124pt>
+File: img/filtrage-mac2.png Graphic file (type png)
+<use img/filtrage-mac2.png>
+Package pdftex.def Info: img/filtrage-mac2.png  used on input line 281.
+(pdftex.def)             Requested size: 250.95476pt x 151.0138pt.
+ [13 <./img/configg-part2.png>]
+<img/console1.png, id=246, 804.00375pt x 962.59625pt>
+File: img/console1.png Graphic file (type png)
+<use img/console1.png>
+Package pdftex.def Info: img/console1.png  used on input line 289.
+(pdftex.def)             Requested size: 209.12683pt x 250.37193pt.
+<img/console2.png, id=247, 804.00375pt x 890.32625pt>
+File: img/console2.png Graphic file (type png)
+<use img/console2.png>
+Package pdftex.def Info: img/console2.png  used on input line 295.
+(pdftex.def)             Requested size: 167.2989pt x 185.2487pt.
+ [14 <./img/filtrage-mac.png> <./img/filtrage-mac2.png>] [15 <./img/console1.png> <./img/console2.png>] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 3B776FDCEFB3B0997E41909B771105C7;9824.
+(rerunfilecheck)             Checksum: F575740BF46DE374E87F1692D02BFD0C;5157.
 runsystem(rm rapport.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 17454 strings out of 478268
- 296273 string characters out of 5846347
- 652003 words of memory out of 5000000
- 35373 multiletter control sequences out of 15000+600000
- 482882 words of font info for 53 fonts, out of 8000000 for 9000
+ 17584 strings out of 478268
+ 298913 string characters out of 5846347
+ 654015 words of memory out of 5000000
+ 35474 multiletter control sequences out of 15000+600000
+ 482569 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,81p,709b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on rapport.pdf (9 pages, 261810 bytes).
+ 75i,12n,81p,631b,638s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on rapport.pdf (16 pages, 865751 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 266 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

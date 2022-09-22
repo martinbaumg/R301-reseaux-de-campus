@@ -30,6 +30,7 @@
     !
     ip http server
     no ip http secure\PYGZhy{}server
-    ip http help\PYGZhy{}path http://www.cisco.com/warp/public/779/smbiz/prodconfig/help/eag
+    ip http help\PYGZhy{}path http://www.cisco.com/warp/public/779/smbiz/prodconfig/
+    help/eag
     !
 \end{Verbatim}

@@ -43,6 +43,7 @@
 \newpage
 \tableofcontents
 \listoffigures
+\listoflistings
 \newpage
 \section{Création d'un nouvel utilisateur et désactivation de l'utilisateur par défaut}
     \subsection{Donnez la signification de \textit{"aaa"}}
@@ -136,7 +137,8 @@
     !
     ip http server
     no ip http secure-server
-    ip http help-path http://www.cisco.com/warp/public/779/smbiz/prodconfig/help/eag
+    ip http help-path http://www.cisco.com/warp/public/779/smbiz/prodconfig/
+    help/eag
     !
         \end{minted}
     \end{listing}
@@ -164,66 +166,137 @@
         \end{minted}
     \end{listing}
 
-
 \section{Configuration WiFi de base via l'interface web et la console}
     \subsection{Mode Open}
         \subsubsection{Faites une capture d'écran}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{img/config-express.png}
+            \caption{Configuration EXPRESS}
+            \label{fig:exp}
+        \end{figure}
+        Pour que cela fonctionne, nous avons dû mettre en route notre interface.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{img/int.png}
+            \caption{Interface}
+            \label{fig:int}
+        \end{figure}
 
         \subsubsection{Avec \texttt{sh running-config} faites une capture d'écran}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{img/part1.png}
+            \caption{Configuration partie 1}
+            \label{fig:sh1}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{img/part2.png}
+            \caption{Configuration partie 2}
+            \label{fig:sh2}
+        \end{figure}
 
         \subsubsection{Indiquez le rôle exact des options \texttt{guest-mode, authentication open} et \texttt{no shutdown}}
+        \begin{itemize}
+            \item \texttt{guest-mode} : permet de créer un réseau invité.
+            \item \texttt{authentication open} : permet de désactiver l'authentification.
+            \item \texttt{no shutdown} : permet de mettre en route l'interface.
+        \end{itemize}
+
 
     \subsection{Mode WEP}
 
         \subsubsection{Faites une capture d'écran}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{img/mode-wep.png}
+            \caption{Configuration WEP}
+            \label{fig:wep}
+        \end{figure}
 
         \subsubsection{Avec \texttt{sh running-config} faites une capture d'écran}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.7\textwidth]{img/config-part1.png}
+            \caption{Configuration partie 1}
+            \label{fig:conf1}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{img/config-part2.png}
+            \caption{Configuration partie 2}
+            \label{fig:conf2}
+        \end{figure}
+
 
     \subsection{Mode WPA - PSK}
 
         \subsubsection{Faites une capture d'écran}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{img/ssid-manage1.png}
+            \caption{Configuration SSID Manager partie 1}
+            \label{fig:ssid1}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.8\textwidth]{img/ssid-manage2.png}
+            \caption{Configuration SSID Manager partie 2}
+            \label{fig:ssid2}
+        \end{figure}
 
         \subsubsection{Faites une capture d'écran}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{img/config-manage3.png}
+            \caption{Configuration SSID Manager après modification}
+            \label{fig:ssid3}
+        \end{figure}
 
         \subsubsection{Avec \texttt{sh running-config} faites une capture d'écran}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.7\textwidth]{img/configg-part1.png}
+            \caption{Configuration \texttt{sh running-config} partie 1}
+            \label{fig:configg1}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=1\textwidth]{img/configg-part2.png}
+            \caption{Configuration \texttt{sh running-config} partie 2}
+            \label{fig:configg2}
+        \end{figure}
 
     \subsection{Filtrage des adresses MAC}
-
-        \subsubsection{Faites une capture d'écran}
-
         \subsubsection{Via interface WEB}
-        Inserez une capture d'écran
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{img/filtrage-mac.png}
+            \caption{Configuration du filtrage MAC}
+            \label{fig:mac}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.6\textwidth]{img/filtrage-mac2.png}
+            \caption{Configuration du filtrage MAC}
+            \label{fig:mac2}
+        \end{figure}
 
         \subsubsection{En console}
-        Inserez une capture d'écran
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{img/console1.png}
+            \caption{Configuration du filtrage MAC en mode console partie 1}
+            \label{fig:console1}
+        \end{figure}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.4\textwidth]{img/console2.png}
+            \caption{Configuration du filtrage MAC en mode console partie 2}
+            \label{fig:console2}
+        \end{figure}
 
-\section{Mise en place d'un serveur RADIUS}
-
-    \subsection{Contrôle}
-
-        \subsubsection{Dans ce contexte simplifié, combien trouve-t-on de trames ici en EAP PWD ?}
-
-    \subsection{Filtrage des adresses MAC via une base locale}
-
-        \subsubsection{Relevez la configuration WiFi depuis votre console}
-
-\section{Restriction de l'accès WiFi au DHCP et à l'accès web}
-
-    \subsection{Testez-les et chercher ce qui ne va pas. Notez dans votre CR la bonne composition}
-
-\section{Requêtes DHCP}
-
-    \subsection{Avec wireshark, remettez les phases DHCP suivantes dans leur ordres logiques}
-
-    DHCPOFFER, DHCPRELEASE, DHCPACK, DHCPREQUEST, DHCPDISCOVER
-
-\section{Création d'une plage horaire d'accès via ACL}
-
-    \subsection{Avec \texttt{sh running-config} faites une capture d'écran}
-
-\section{Création de deux réseaux WiFi assignés à deux VLAN distincts}
-
-    \subsection{Une fois la configuration terminée, donnez toutes les configurations obtenues via \textit{sh running-config}}
 
     
 \end{document}
