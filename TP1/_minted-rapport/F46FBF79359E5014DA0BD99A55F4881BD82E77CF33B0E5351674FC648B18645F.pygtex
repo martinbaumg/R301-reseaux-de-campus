@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    access\PYGZhy{}list \PYG{l+m}{25} permit \PYG{l+m}{10}.129.10.207
+    access\PYGZhy{}list \PYG{l+m}{25} deny   any
+    !
+    control\PYGZhy{}plane
+    !
+    bridge \PYG{l+m}{1} route ip
+    !
+    !
+    !
+    line con \PYG{l+m}{0}
+    line vty \PYG{l+m}{0} \PYG{l+m}{4}
+    transport input ssh
+    line vty \PYG{l+m}{5} \PYG{l+m}{15}
+    transport input ssh
+    !
+    end
+\end{Verbatim}

@@ -1,0 +1,32 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    RT222\PYGZhy{}BK\PYGZsh{}show running\PYGZhy{}config
+    Building configuration...
+
+    Current configuration : \PYG{l+m}{1341} bytes
+    !
+    version \PYG{l+m}{12}.3
+    no service pad
+    service timestamps debug datetime msec
+    service timestamps log datetime msec
+    service password\PYGZhy{}encryption
+    !
+    hostname RT222\PYGZhy{}BK
+    !
+    !
+    ip subnet\PYGZhy{}zero
+    !
+    !
+    aaa new\PYGZhy{}model
+    !
+    !
+    aaa authorization \PYG{n+nb}{exec} default \PYG{n+nb}{local}
+    aaa session\PYGZhy{}id common
+    !
+    !
+    username toto privilege \PYG{l+m}{15} password \PYG{l+m}{7} 0835435A060D0A031D
+    username admin privilege \PYG{l+m}{15} password \PYG{l+m}{7} 14031D1F0310253F2B
+    !
+    bridge irb
+    !
+    !
+\end{Verbatim}

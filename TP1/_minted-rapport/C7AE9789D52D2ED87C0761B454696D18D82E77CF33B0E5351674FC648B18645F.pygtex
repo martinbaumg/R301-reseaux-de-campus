@@ -1,0 +1,35 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    interface Dot11Radio0
+    no ip address
+    no ip route\PYGZhy{}cache
+    shutdown
+    speed basic\PYGZhy{}1.0 basic\PYGZhy{}2.0 basic\PYGZhy{}5.5 \PYG{l+m}{6}.0 \PYG{l+m}{9}.0 basic\PYGZhy{}11.0 \PYG{l+m}{12}.0
+    \PYG{l+m}{18}.0 \PYG{l+m}{24}.0 \PYG{l+m}{36}.0 \PYG{l+m}{48}.0 \PYG{l+m}{54}.0
+    station\PYGZhy{}role root
+    bridge\PYGZhy{}group \PYG{l+m}{1}
+    bridge\PYGZhy{}group \PYG{l+m}{1} subscriber\PYGZhy{}loop\PYGZhy{}control
+    bridge\PYGZhy{}group \PYG{l+m}{1} block\PYGZhy{}unknown\PYGZhy{}source
+    no bridge\PYGZhy{}group \PYG{l+m}{1} source\PYGZhy{}learning
+    no bridge\PYGZhy{}group \PYG{l+m}{1} unicast\PYGZhy{}flooding
+    bridge\PYGZhy{}group \PYG{l+m}{1} spanning\PYGZhy{}disabled
+    !
+    interface FastEthernet0
+    no ip address
+    no ip route\PYGZhy{}cache
+    duplex auto
+    speed auto
+    bridge\PYGZhy{}group \PYG{l+m}{1}
+    no bridge\PYGZhy{}group \PYG{l+m}{1} source\PYGZhy{}learning
+    bridge\PYGZhy{}group \PYG{l+m}{1} spanning\PYGZhy{}disabled
+    hold\PYGZhy{}queue \PYG{l+m}{160} \PYG{k}{in}
+    !
+    interface BVI1
+    ip address dhcp
+    ip access\PYGZhy{}group \PYG{l+m}{25} \PYG{k}{in}
+    no ip route\PYGZhy{}cache
+    !
+    ip http server
+    no ip http secure\PYGZhy{}server
+    ip http help\PYGZhy{}path http://www.cisco.com/warp/public/779/smbiz/prodconfig/help/eag
+    !
+\end{Verbatim}
