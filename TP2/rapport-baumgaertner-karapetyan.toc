@@ -1,0 +1,7 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Connexion par pont}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Dans quel dossier se trouvent les fichiers d'exemples par défaut de hostapd ?}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Depuis le smartphone, notez votre masque/IP de la passerelle et les DNS reçus}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Passerelle connectée à un point d'accès}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Relevez manuellement les adresses IP des serveurs DNS de l'UHA}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Cherchez les options les sécurisation des transactions DNS}{2}{subsection.2.2}%
